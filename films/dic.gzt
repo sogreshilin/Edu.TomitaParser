@@ -1,0 +1,19 @@
+encoding "utf8";
+
+import "base.proto";
+import "articles_base.proto";
+import "fact_types.proto";
+import "genre.gzt";
+
+
+TAuxDicArticle "Films" {
+    key = {
+        "tomita:film_grammar.cxx" type = CUSTOM
+    }
+}
+
+TAuxDicArticle "Date" {
+    key = {
+        "tomita:date_grammar.cxx" type = CUSTOM
+    }
+}
