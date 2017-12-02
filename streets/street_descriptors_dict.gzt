@@ -1,0 +1,4 @@
+encoding "utf8";
+TAuxDicArticle "street_descriptor" {
+    key = "проспект" | "проезд" | "улица" | "шоссе" | "переулок" | "тупик" | "аллея";
+}

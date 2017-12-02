@@ -1,0 +1,23 @@
+encoding "utf8";
+
+TTextMinerConfig {
+    Dictionary = "dic.gzt";
+
+    PrettyOutput = "pretty.html";
+
+    Input = {
+        File = "input.txt";
+    }
+
+    Articles = [
+        { Name = "Streets in Harry Potter world" }
+    ]
+
+    Facts = [
+        { Name = "Street" }
+    ]
+
+    Output = {
+        File = "/dev/null";
+    }
+}
