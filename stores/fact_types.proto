@@ -1,0 +1,7 @@
+import "base.proto";
+import "facttypes_base.proto";
+
+
+message Org: NFactType.TFact {
+    required string OrgName = 1;
+}

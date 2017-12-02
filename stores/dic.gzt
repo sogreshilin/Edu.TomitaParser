@@ -1,0 +1,12 @@
+encoding "utf8";
+
+import "base.proto";
+import "articles_base.proto";
+import "fact_types.proto";
+
+
+TAuxDicArticle "Shops in Harry Potter world" {
+    key = {
+        "tomita:shops_grammar.cxx" type = CUSTOM
+    }
+}
