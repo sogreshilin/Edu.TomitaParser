@@ -1,3 +1,6 @@
 # tomita binaries
 *.bin
 tomita
+
+# tomita output files
+*.html
